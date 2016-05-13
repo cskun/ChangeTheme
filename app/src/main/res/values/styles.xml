@@ -1,0 +1,30 @@
+<resources>
+    <!-- 日间 -->
+    <style name="AppTheme_Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!-- Button文字为黑色 -->
+        <item name="btnTxColor">#000000</item>
+        <!-- Button文字为白色-->
+        <item name="btnBgColor">#ffffff</item>
+    </style>
+
+    <!-- 夜间 -->
+    <style name="AppTheme_Night" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!-- Button文字为白色 -->
+        <item name="btnTxColor">#ffffff</item>
+        <!-- Button文字为黑色 -->
+        <item name="btnBgColor">#000000</item>
+    </style>
+
+</resources>

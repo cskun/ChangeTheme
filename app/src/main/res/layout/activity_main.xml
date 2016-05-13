@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.jinkun.changetheme.MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/btnBgColor"
+        android:text="切换主题"
+        android:textColor="?attr/btnTxColor"/>
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/btnBgColor"
+        android:text="SettingActivity"
+        android:textAllCaps="false"
+        android:textColor="?attr/btnTxColor"/>
+
+</LinearLayout>
